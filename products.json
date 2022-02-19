@@ -1,0 +1,349 @@
+{
+    "name": "xp",
+    "cdb": [
+        {
+            "identity": "xp-Cdb-0",
+            "bankId": "xp",
+            "description": "Cdb",
+            "type": "Cdb",
+            "value": 199,
+            "dueDate": "2023-04-29",
+            "profitability": 0,
+            "risk": 14,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cdb-1",
+            "bankId": "xp",
+            "description": "Cdb",
+            "type": "Cdb",
+            "value": 237,
+            "dueDate": "2022-11-28",
+            "profitability": 0,
+            "risk": 33,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cdb-2",
+            "bankId": "xp",
+            "description": "Cdb",
+            "type": "Cdb",
+            "value": 115,
+            "dueDate": "2023-06-13",
+            "profitability": 0,
+            "risk": 37,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        }
+    ],
+    "lci": [
+        {
+            "identity": "xp-Lci-0",
+            "bankId": "xp",
+            "description": "Lci",
+            "type": "Lci",
+            "value": 152,
+            "dueDate": "2023-10-12",
+            "profitability": 0,
+            "risk": 48,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Lci-1",
+            "bankId": "xp",
+            "description": "Lci",
+            "type": "Lci",
+            "value": 228,
+            "dueDate": "2024-01-10",
+            "profitability": 0,
+            "risk": 35,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Lci-2",
+            "bankId": "xp",
+            "description": "Lci",
+            "type": "Lci",
+            "value": 88,
+            "dueDate": "2023-01-13",
+            "profitability": 0,
+            "risk": 45,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        }
+    ],
+    "lca": [
+        {
+            "identity": "xp-Lca-0",
+            "bankId": "xp",
+            "description": "Lca",
+            "type": "Lca",
+            "value": 93,
+            "dueDate": "2023-05-03",
+            "profitability": 0,
+            "risk": 33,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Lca-1",
+            "bankId": "xp",
+            "description": "Lca",
+            "type": "Lca",
+            "value": 133,
+            "dueDate": "2022-08-29",
+            "profitability": 0,
+            "risk": 11,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Lca-2",
+            "bankId": "xp",
+            "description": "Lca",
+            "type": "Lca",
+            "value": 201,
+            "dueDate": "2022-09-04",
+            "profitability": 0,
+            "risk": 36,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        }
+    ],
+    "cri": [
+        {
+            "identity": "xp-Cri-0",
+            "bankId": "xp",
+            "description": "Cri",
+            "type": "Cri",
+            "value": 68,
+            "dueDate": "2023-01-02",
+            "profitability": 0,
+            "risk": 42,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cri-1",
+            "bankId": "xp",
+            "description": "Cri",
+            "type": "Cri",
+            "value": 190,
+            "dueDate": "2024-06-25",
+            "profitability": 0,
+            "risk": 31,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cri-2",
+            "bankId": "xp",
+            "description": "Cri",
+            "type": "Cri",
+            "value": 70,
+            "dueDate": "2023-07-02",
+            "profitability": 0,
+            "risk": 32,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        }
+    ],
+    "cra": [
+        {
+            "identity": "xp-Cra-0",
+            "bankId": "xp",
+            "description": "Cra",
+            "type": "Cra",
+            "value": 118,
+            "dueDate": "2023-11-27",
+            "profitability": 0,
+            "risk": 19,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cra-1",
+            "bankId": "xp",
+            "description": "Cra",
+            "type": "Cra",
+            "value": 102,
+            "dueDate": "2024-04-24",
+            "profitability": 0,
+            "risk": 6,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        },
+        {
+            "identity": "xp-Cra-2",
+            "bankId": "xp",
+            "description": "Cra",
+            "type": "Cra",
+            "value": 91,
+            "dueDate": "2023-04-13",
+            "profitability": 0,
+            "risk": 7,
+            "acquisitionDate": "0001-01-01",
+            "volumn": 0
+        }
+    ],
+    "stocks": [
+        {
+            "identity": "xp-stocks-0",
+            "bankId": "xp",
+            "ticker": "QAA28",
+            "volumn": 0,
+            "value": 25,
+            "acquisitionDate": "0001-01-01",
+            "risk": 93
+        },
+        {
+            "identity": "xp-stocks-1",
+            "bankId": "xp",
+            "ticker": "GAB24",
+            "volumn": 0,
+            "value": 16,
+            "acquisitionDate": "0001-01-01",
+            "risk": 52
+        },
+        {
+            "identity": "xp-stocks-2",
+            "bankId": "xp",
+            "ticker": "HAC60",
+            "volumn": 0,
+            "value": 39,
+            "acquisitionDate": "0001-01-01",
+            "risk": 99
+        },
+        {
+            "identity": "xp-stocks-3",
+            "bankId": "xp",
+            "ticker": "QAD81",
+            "volumn": 0,
+            "value": 36,
+            "acquisitionDate": "0001-01-01",
+            "risk": 88
+        },
+        {
+            "identity": "xp-stocks-4",
+            "bankId": "xp",
+            "ticker": "UAE83",
+            "volumn": 0,
+            "value": 73,
+            "acquisitionDate": "0001-01-01",
+            "risk": 98
+        },
+        {
+            "identity": "xp-stocks-5",
+            "bankId": "xp",
+            "ticker": "BAF14",
+            "volumn": 0,
+            "value": 68,
+            "acquisitionDate": "0001-01-01",
+            "risk": 57
+        },
+        {
+            "identity": "xp-stocks-6",
+            "bankId": "xp",
+            "ticker": "TAG71",
+            "volumn": 0,
+            "value": 64,
+            "acquisitionDate": "0001-01-01",
+            "risk": 84
+        },
+        {
+            "identity": "xp-stocks-7",
+            "bankId": "xp",
+            "ticker": "MAH68",
+            "volumn": 0,
+            "value": 25,
+            "acquisitionDate": "0001-01-01",
+            "risk": 50
+        }
+    ],
+    "investmentFunds": [
+        {
+            "identity": "xp-investfund-0",
+            "bankId": "xp",
+            "name": "fii 0",
+            "type": "fii",
+            "value": 116,
+            "acquisitionDate": "0001-01-01",
+            "risk": 68,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-1",
+            "bankId": "xp",
+            "name": "renda-fixa 1",
+            "type": "renda-fixa",
+            "value": 64,
+            "acquisitionDate": "0001-01-01",
+            "risk": 61,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-2",
+            "bankId": "xp",
+            "name": "renda-variável 2",
+            "type": "renda-variável",
+            "value": 110,
+            "acquisitionDate": "0001-01-01",
+            "risk": 62,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-3",
+            "bankId": "xp",
+            "name": "multimercado 3",
+            "type": "multimercado",
+            "value": 153,
+            "acquisitionDate": "0001-01-01",
+            "risk": 86,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-4",
+            "bankId": "xp",
+            "name": "fii 4",
+            "type": "fii",
+            "value": 90,
+            "acquisitionDate": "0001-01-01",
+            "risk": 54,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-5",
+            "bankId": "xp",
+            "name": "renda-fixa 5",
+            "type": "renda-fixa",
+            "value": 21,
+            "acquisitionDate": "0001-01-01",
+            "risk": 87,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-6",
+            "bankId": "xp",
+            "name": "renda-variável 6",
+            "type": "renda-variável",
+            "value": 34,
+            "acquisitionDate": "0001-01-01",
+            "risk": 95,
+            "volumn": 0
+        },
+        {
+            "identity": "xp-investfund-7",
+            "bankId": "xp",
+            "name": "multimercado 7",
+            "type": "multimercado",
+            "value": 75,
+            "acquisitionDate": "0001-01-01",
+            "risk": 77,
+            "volumn": 0
+        }
+    ]
+}

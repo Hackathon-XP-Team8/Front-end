@@ -1,0 +1,10 @@
+qlkKA4CAV3OVW6gyKoC9ALTlnqnSJyVsPTS4st4lIupSBRTx
+V9N2T9SFxexpPmUwF8EqAimHju42MtceOyJMuNWqmCazHe1pABaEiVgLSDwZRGOm
+
+curl --location --request POST 'https://openapi.xpi.com.br/oauth2/v1/access-token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'client_id=qlkKA4CAV3OVW6gyKoC9ALTlnqnSJyVsPTS4st4lIupSBRTx' \
+--data-urlencode 'client_secret=V9N2T9SFxexpPmUwF8EqAimHju42MtceOyJMuNWqmCazHe1pABaEiVgLSDwZRGOm'
+
+l0CDb7Azp5N331G9ku8bGMR9PgHY
