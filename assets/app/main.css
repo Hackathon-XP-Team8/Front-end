@@ -1,6 +1,7 @@
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
 }
+
 .font-open-sans{
     font-family: 'Open Sans', sans-serif;
 }
@@ -29,4 +30,7 @@ button a{
 
 #hr-line{
     border-top: 1px dashed red;
+}
+.mobile-container{
+    max-width: min(100vh, 375px);
 }

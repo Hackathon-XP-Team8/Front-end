@@ -1,8 +1,8 @@
 class Controller {
-    constructor(){
+    constructor() {
 
     }
-    
+
     /**
      * Makes the XMLHttpRequest.
      * @param {string} type - The request type.
@@ -44,9 +44,9 @@ class Controller {
             }
         };
         httpRequest.open(type, url, true);
-        //if (type.toUpperCase() == "POST") {
+        if (type.toUpperCase() == "POST") {
             httpRequest.setRequestHeader("Content-Type", contentType);
-        //}
+        }
         console.log(data)
         httpRequest.send(data);
     }
@@ -84,10 +84,12 @@ class Controller {
      */
     postRequest (url, data = {}, callback, options = {}) {
         //  It is necessary to transform the data object into JSON
-        /*if (typeof data == "object") {
+        if (typeof data == "object") {
             data = JSON.stringify(data);
             options["contentType"] = "application/json";
-        }*/
+        }
         this.request("POST", url, data, callback, options);
     }
 }
+
+export { Controller };

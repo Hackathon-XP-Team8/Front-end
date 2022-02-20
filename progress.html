@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progresso</title>
-    <link href="/assets/bootstrap-5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap-5.1.3/scss/bootstrap.css" rel="stylesheet">
     <script src="/assets/bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/294774180a.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,49 +19,75 @@
     <link rel="stylesheet" href="/assets/app/main.css">
 </head>
 
-<body class="p-4 bg-dark text-warning font-open-sans" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
-    <nav class="d-flex justify-content-between mb-4">
-        <button type="button" class="btn btn-dark text-warning"><i class="fa-solid fa-angle-left fa-xl"></i></button>
-        <button type="button" class="btn btn-dark text-warning"><i class="fa-solid fa-circle-info fa-xl"></i></button>
+<body class="bg-dark text-warning font-open-sans mobile-container">
+    <nav class="navbar d-flex justify-content-center navbar-light bg-light">
+        <div class="navbar-brand mb-0 h1">
+            GamerXP
+        </div>
     </nav>
-    <main>
-        <section class="mb-5">
-            <h1 class="display-1 fw-bold text-center mb-3">Nível 2</h1>
-            <div class="d-flex justify-content-center position-relative">
-                <canvas id="donut" class="w-75 text-center" width="245" height="245">
+    <main class="p-4">
+        <nav class="d-flex justify-content-between mb-4">
+            <a href="./home.html" class="btn text-white"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+            <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#quest-modal"><i
+                    class="fa-solid fa-circle-info fa-xl"></i></button>
+        </nav>
+        <main>
+            <section class="mb-5">
+                <div class="d-flex justify-content-center position-relative mb-4 text-warning">
+                    <canvas id="donut">
 
-                </canvas>
-                <div class="position-absolute top-50 start-50 translate-middle text-center">
-                    <h1 class="display-3 mb-0">1300</h1>
-                    <h5>de 2000</h5>
+                    </canvas>
+                    <div class="position-absolute top-50 start-50 translate-middle text-center">
+                        <h1 class="display-2">Nível <span id="current-lvl">2</span></h1>
+                        <h5><span id="current-xp">2012</span> de <span id="next-xp">3000</span></h5>
+                    </div>
+                </div>
+            </section>
+            <section class="text-light">
+                <button class="card mb-4">
+                    <div class="card-body p-2">
+                        <i class="fa-solid fa-award fa-2xl me-3 text-dark"></i>
+                        <span class="h4">Benefícios</span>
+                    </div>
+                </button>
+                <div id="benefits">
+                    <article class="mb-2">
+                        <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">Revisão do limite de
+                            crédito</span>
+                    </article>
+                    <article class="mb-2">
+                        <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">Ebook - Controle de
+                            gastos</span>
+                    </article>
+                    <article>
+                        <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">1 semana de
+                            Finclass</span>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <div class="modal fade" id="quest-modal" tabindex="-1" aria-labelledby="quest-modal-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="quest-modal-label">Missões</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-2">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex">Ver vídeo sobre Open Finance <div class="ms-auto">50p</div></li>
+                            <li class="list-group-item d-flex">Indicar um amigo <div class="ms-auto">50p</div></li>
+                            <li class="list-group-item d-flex">1 mês de saldo positivo <div class="ms-auto">100p</div></li>
+                            <li class="list-group-item d-flex">Aderir ao Open Finance <div class="ms-auto">800p</div></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section class="text-light">
-            <button class="card mb-4">
-                <div class="card-body p-2">
-                    <i class="fa-solid fa-award fa-2xl me-3 text-warning"></i>
-                    <span class="h4">Benefícios</span>
-                </div>
-            </button>
-            <div>
-                <article class="mb-2">
-                    <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">Revisão do limite de
-                        crédito</span>
-                </article>
-                <article class="mb-2">
-                    <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">Ebook - Controle de
-                        gastos</span>
-                </article>
-                <article>
-                    <i class="fa-solid fa-check text-warning fa-xl me-4"></i><span class="h5">1 semana de
-                        Finclass</span>
-                </article>
-            </div>
-        </section>
+        </div>
     </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 <script type="module" src="assets/app/main.mjs"></script>
+<script type="module" src="assets/app/pages/progress.mjs"></script>
 
 </html>

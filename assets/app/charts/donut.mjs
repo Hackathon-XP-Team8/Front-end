@@ -1,8 +1,17 @@
 class Donut {
     constructor(HTMLElement, current, max) {
         this.el = HTMLElement
+        if(!this.el){
+            this.ok = false;
+            return;
+        }
+
+        this.ok = true;
 
         this.width = this.el.offsetWidth;
+
+        this.el.width = this.width;
+        this.el.height = this.width;
 
         this.el.style.height = this.width + "px";
 
@@ -36,8 +45,10 @@ class Donut {
 
 
     draw () {
-        this.outside();
-        this.progress();
+        if(this.ok){
+            this.outside();
+            this.progress();
+        }
     }
 
     outside () {
@@ -54,13 +65,13 @@ class Donut {
         this.ctx.moveTo(0, 0);
         this.ctx.arc(0, 0, this.radius - this.size + 1, 0, Math.PI * 2);
         this.ctx.closePath();
-        this.ctx.fillStyle = "#212529";
+        this.ctx.fillStyle = "#252424";
         this.ctx.fill();
     }
 
     progress () {
         if (this.frame > this.delay && this.frame < this.duration + this.delay) {
-            const index = (this.frame - this.delay) * this.ratio / this.duration
+            const index = (this.frame - this.delay) * this.ratio / this.duration;
             const x = Math.cos(index * Math.PI * 2 - Math.PI / 2) * this.radius;
             const y = -Math.sin(index * Math.PI * 2 - Math.PI / 2) * this.radius;
             this.ctx.beginPath();
@@ -69,10 +80,8 @@ class Donut {
             this.ctx.closePath();
             this.ctx.fillStyle = "#fec434";
             this.ctx.fill();
-
-            this.inside();
         }
-
+        this.inside();
         this.frame++;
         requestAnimationFrame(() => this.progress());
     }
