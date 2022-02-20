@@ -1,4 +1,3 @@
-import { Donut } from "../chart/donut.mjs"
+import { User } from "../user/user.mjs"
 
-let donut = new Donut(document.getElementById("donut"), 1200, 2000);
-donut.draw();
+const user = new User();

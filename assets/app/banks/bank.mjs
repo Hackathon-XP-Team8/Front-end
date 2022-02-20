@@ -4,6 +4,10 @@ class Bank {
         this.image = image;
         this.color = color;
     }
+
+    getCard(){
+        
+    }
 }
 
 export { Bank };

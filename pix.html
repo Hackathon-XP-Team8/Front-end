@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="/assets/bootstrap-5.1.3/scss/bootstrap.css" rel="stylesheet">
+    <script src="/assets/bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/294774180a.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/app/main.css">
+</head>
+
+<body class="bg-dark text-dark font-open-sans mobile-container">
+    <nav class="navbar d-flex justify-content-center navbar-light bg-light">
+        <div class="navbar-brand mb-0 h1">
+            GamerXP
+        </div>
+    </nav>
+    <main class="p-4">
+        <nav class="d-flex justify-content-between mb-4">
+            <a href="./home.html" class="btn text-white"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+        </nav>
+        <div class="card mb-4" data-bs-toggle="modal" data-bs-target="#pay-modal">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fa-solid fa-hand-holding-dollar me-3"></i>Pagar
+                    </div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <h4 class="text-white">Suas chaves</h4>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                CPF
+                <div><small>***.457.684-**</small></div>
+            </li>
+            <li class="list-group-item">
+                Celular
+                <div><small>(**) *****-2629</small></div>
+            </li>
+            <li class="list-group-item">
+                E-mail
+                <div><small>******ple@g****.com</small></div>
+            </li>
+        </ul>
+        <h4 class="text-white">Seus contatos</h4>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                Lucas
+                <div><small>***.548.218-**</small></div>
+            </li>
+            <li class="list-group-item">
+                Viviana
+                <div><small>(**) *****-2012</small></div>
+            </li>
+            <li class="list-group-item">
+                Giovana
+                <div><small>******ana@y*****.com</small></div>
+            </li>
+            <li class="list-group-item">
+                Lorena
+                <div><small>******faOb54T</small></div>
+            </li>
+        </ul>
+    </main>
+    <div class="modal fade" id="pay-modal" tabindex="-1" aria-labelledby="quest-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="quest-modal-label">Pagar pix</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="to" class="form-label">Contato</label>
+                            <select  id="to" class="form-select" aria-label="Default select example">
+                                <option value="1">Lucas</option>
+                                <option value="2">Viviana</option>
+                                <option value="3">Giovana</option>
+                                <option value="4">Lorena</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="value" class="form-label">Valor</label>
+                            <input type="text" class="form-control" id="value" value="100,00">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark">Pagar</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="assets/app/main.mjs"></script>
+    <script type="module" src="assets/app/pages/home.mjs"></script>
+</body>
+
+</html>
