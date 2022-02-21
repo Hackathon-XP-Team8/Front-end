@@ -12,7 +12,7 @@ ensino de educação financeira no GamerXP, através de um processo de gamifica�
 
 ## Atenção	:warning:	
 
-tivemos um problema no final do hackathon para fazer a integração por conta que precisariamos servir o codigo para que ele funcionasse, com utilização
+tivemos um problema no final do hackathon para fazer a integração por conta que precisariamos criar um servidor para servir os arquivos estaticos o codigo para que ele funcionasse, com utilização
 de express removendo o asserts, vimos que ele estava interferindo nas conexões com a API, apesar de não termos finalizado, vocês podem verificar o inicio da 
 resolução dentro da branch developer
 
